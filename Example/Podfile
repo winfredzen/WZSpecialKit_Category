@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WZSpecialKit_Category_Example' do
+  pod 'WZSpecialKit_Category', :path => '../'
+
+  target 'WZSpecialKit_Category_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
