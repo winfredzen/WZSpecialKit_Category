@@ -1,3 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+#添加source
+source 'https://github.com/winfredzen/WZSpecs.git'
+
 use_frameworks!
 
 platform :ios, '8.0'
